@@ -38,5 +38,8 @@ spec:
        port: 8161
        nodePort: 30010
 
+     - name: endpoint
+       port: 61616
+
    # Substitute for local load balancer
    type: NodePort 
